@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: papayawhip;
+}
+.header{
+    width: 100%;
+    overflow: hidden;
+    background-color: blueviolet;
+    display: flex;
+}
+.logo{
+    width: 40%; 
+    height: 100px;
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+.logo h1{
+    font-size: 35px;
+    margin-left: 50px;
+}
+.menu{
+    width: 60%;
+    overflow: hidden;  
+}
+.menu ul{
+   list-style-type: none; 
+   margin-left: auto;
+   padding: 0;
+   display: flex;
+}
+.menu ul li a{
+    
+}
