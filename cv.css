@@ -3,12 +3,12 @@
     width: 100%;
     margin: auto;
     height: 1000px;
-    background-color:white;
+    background-color:#DFEBF6;
 }
 .header{
     width: 100%;
     overflow: hidden;
-    background-color: white;
+    background-color: #AAC7D8;
     display: flex;
 }
 .logo{
@@ -45,7 +45,6 @@
   align-items: center;
   gap: 20px;
 
-  /* border: 1px solid;/ */
 }
 .image-box img{
     width: 400px;
@@ -76,16 +75,6 @@
     text-align: center;
     position: absolute;
     top: 500px;
-    left: 870px;
-}
-.text4{
-    font-size: 40px;
-    color: black;
-    position: absolute;
-    top: 750px;
-    right: 450px;
-    font-weight: bold;
-    right: 380px;
-
-
+    /* left: 870px; */
+    margin-left: 1000px;
 }

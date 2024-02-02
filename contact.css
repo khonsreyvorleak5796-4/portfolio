@@ -1,0 +1,96 @@
+.container{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 1000px;
+    background-color:#DFEBF6;
+}
+.header{
+    width: 100%;
+    overflow: hidden;
+    background-color:#AAC7D8;
+    display: flex;
+}
+.logo{
+    width: 40%; 
+    height: 100px;
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+.logo h1{
+    font-size: 35px;
+    margin-left: 50px;
+    
+}
+.menu{
+    width: 60%;
+    overflow: hidden;  
+   margin-left: 800px;
+   /* background-color: antiquewhite; */
+}
+.menu ul{
+   list-style-type: none; 
+   margin-left: auto;
+   padding: 0;
+   display: flex;
+   gap: 99px;
+  
+
+}
+.menu ul li a{
+    text-decoration: none;
+  display: flex;
+  font-size: 30px;
+  color: black;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  /* border: 1px solid;/ */
+}
+.box-1{
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    /* background-color: yellow; */
+    top: 200px;
+    left: 40px;
+    
+}
+.box-2{
+    position: absolute;
+    width: 1100px;
+    height: 700px;
+    right: 0;
+    top: 200px;
+
+}
+button{
+    margin-top: 33%;
+    float: right;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    margin-right: 40px;
+}
+.name{
+    position: absolute;
+    top: 40px;
+    margin-bottom: 10px;
+}
+/* .name1{
+    position: absolute;
+    top: 180px;
+    margin-bottom: 10px;
+}
+.name2{
+    position: absolute;
+    top: 230px;
+    margin-bottom: 10px;
+}
+.name{
+    position: absolute;
+    top: 200px;
+    margin-bottom: 10px;
+} */
